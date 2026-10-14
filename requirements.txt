@@ -1,0 +1,5 @@
+torch>=2.5,<3
+transformers>=4.44,<4.45
+numpy>=1.24,<3
+scikit-learn>=1.2,<2
+easydict>=1.10,<2
