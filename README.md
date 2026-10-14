@@ -4,7 +4,7 @@ Progressive Representation Learning Framework for multimodal sentiment analysis 
 
 PRLF combines an Adaptive Modality Reliability Estimator (AMRE) with four progressive interaction steps, learned projection/residual decomposition, and residual denoising. It supports frame-level missingness and evaluation with any nonempty subset of language, audio, and vision.
 
-This implementation has been checked for execution, but full paper benchmark reproduction has not been completed. [IMPLEMENTATION.md](IMPLEMENTATION.md) records equation mappings, assumptions, and limitations. This repository provides the author's PRLF implementation; components adapted from the DMD project are identified below and retain their original attribution.
+This repository provides the author's PRLF implementation; components adapted from the DMD project are identified below and retain their original attribution.
 
 ## Installation
 
