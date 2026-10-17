@@ -51,7 +51,7 @@ python -m unittest discover -s tests -v
 
 Use `--help` for device, seed, batch size, gradient accumulation, and loss settings. Checkpoints are selected using validation loss and written to `pt/` alongside JSON metrics. Default losses are `task + 0.5 * unimodal + 0.1 * phase`, with `gamma=0.8` and four interaction steps.
 
-Exact parameter Fisher calculations are expensive with fine-tuned BERT. `--freeze-bert` reduces the cost and excludes frozen BERT parameters from Fisher. The smoke run freezes BERT for CPU validation. SIMS and full five-seed benchmark reproduction are not implemented/validated.
+Exact parameter Fisher calculations are expensive with fine-tuned BERT. `--freeze-bert` reduces the cost and excludes frozen BERT parameters from Fisher. The smoke run freezes BERT for CPU validation.
 
 ## Project structure
 
